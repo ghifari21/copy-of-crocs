@@ -1,0 +1,50 @@
+html,
+body {
+  height: 100%;
+}
+
+.item-selection:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.item-desc:hover {
+  text-decoration: underline;
+}
+
+footer {
+  background-color: rgb(65, 60, 60);
+}
+
+footer h5 {
+  color: white;
+  font-size: 13px;
+}
+
+footer a {
+  color: white;
+  font-size: 12px;
+  text-decoration: none;
+}
+
+footer a:hover {
+  color: white;
+}
+
+footer li {
+  list-style-type: none;
+}
+
+footer ul {
+  padding: 0;
+}
+
+.button {
+  background-color: rgb(65, 60, 60);
+  color: white;
+  outline: rgb(65, 60, 60);
+}
+
+.button:hover {
+  background-color: black;
+  outline: white;
+}
